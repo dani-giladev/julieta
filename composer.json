@@ -1,0 +1,29 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "~6.0",
+        "monolog/monolog": "1.6.0",
+        "phpoffice/phpexcel": "1.7.9",
+        "doctrine/couchdb": "@dev",
+        
+        "stichoza/google-translate-php": "4.0.0",
+        "statickidz/php-google-translate-free": "^1.0",
+        
+        "mobiledetect/mobiledetectlib": "^2.8"
+    },
+    "config": {
+        "vendor-dir":"lib"
+    },
+    "autoload": {
+        "classmap": 
+        [
+            "index.php",
+            "bootstrap.php",
+            "test.php",
+            "core",
+            "lib",
+            "modules",
+            "scripts"
+        ]
+    }
+    
+}

@@ -1,0 +1,120 @@
+
+.main-tabpanel-enabled .x-tab-bar-default-top {
+    background : lightskyblue;
+    background-image: none !important;
+}
+.main-tabpanel-disabled .x-tab-bar-default-top {
+    background : transparent;
+    background-image: none !important;
+}
+
+.button-std {
+    font-size: 16px;
+}
+
+/*.x-btn.main-menu-btn {
+    background: gray;
+}
+
+.x-btn.main-menu-btn-over {
+    background: black;
+}
+
+.main-menu-btn.x-btn.x-btn-pressed  {
+    background: black;
+}
+.x-main-menu-btn-pressed {
+    background: black;
+}
+.x-btn-pressed.main-menu-btn {
+    background: black !important;
+}*/
+
+.x-btn.main-menu-btn .x-btn-inner {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.x-btn.main-menu-big-btn .x-btn-inner {
+    font-size: 18px;
+    height: 40px;
+/*    border: 1px red solid;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-red {
+    color: red;
+}
+
+/*************************************/
+/* Logout button */
+/*************************************/
+/*.logout-btn {
+    margin-top: -3px;
+}*/
+.x-btn.logout-btn .x-btn-inner {
+    /*font-size: 18px;*/
+}
+.x-btn.logout-btn {
+    background: darkred;
+}
+
+.x-btn.logout-btn-over {
+    background: red;
+}
+
+/*************************************/
+/* Grid */
+/*************************************/
+.x-grid-row-summary {
+/*    background-color: green;
+    color: white;*/
+}
+.custom-grid-feature-grouping {
+    background-color: lightskyblue;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;    
+}
+.x-grid-cell {
+  vertical-align: middle;
+}
+.grid-row-background-red {
+    background: #ffcdcd;
+}
+
+/*************************************/
+/* Calendar */
+/*************************************/
+.x-calendar-weeks-today-cell {
+    background-color: lightskyblue;
+}
+
+/************************************/
+/* Scrolling
+/************************************/
+.custom-scrolling::-webkit-scrollbar {
+    width: 3px;
+    background-color: #FFFFFF;
+}
+/* Track */
+.custom-scrolling::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+/* Handle */
+.custom-scrolling::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background-color: #000000;    
+}
+.custom-scrolling::-webkit-scrollbar-thumb:window-inactive {
+    background-color: #000000;    
+}

@@ -1,0 +1,30 @@
+
+/*
+* Logout button
+*/
+.x-btn.logout-btn {
+    background: darkred;
+}
+
+.x-btn.logout-btn-over {
+    background: red;
+}
+
+
+/*
+* Grid
+*/
+.x-grid-row-summary {
+/*    background-color: green;
+    color: white;*/
+}
+.custom-grid-feature-grouping {
+    background-color: lightskyblue;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;    
+}
+.x-grid-cell {
+  vertical-align: middle;
+}
